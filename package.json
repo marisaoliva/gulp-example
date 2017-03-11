@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stylus":"gulp watch"
+    "stylus": "gulp stylus",
+    "dust":"gulp dust",
+    "start": "gulp stylus && gulp dust && gulp watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp-dust": "^3.0.0"
+  }
 }

@@ -1,0 +1,1 @@
+(function(dust){dust.register("index",body_0);function body_0(chk,ctx){return chk.w("<ul>").s(ctx.get(["names"], false),ctx,{"block":body_1},{}).w("</ul>r");}body_0.__dustBody=!0;function body_1(chk,ctx){return chk.w("<li>").f(ctx.get(["name"], false),ctx,"h").w("</li>\n");}body_1.__dustBody=!0;return body_0}(dust));
